@@ -1,0 +1,25 @@
+:root
+{
+  --brown: #613836;
+  --darkerblue : #196e75;
+  --black : #2e1d1b;
+  --gray : #788097;
+  --blueCard : #DDF8FE;
+  --purple: rgb(238 210 255);
+  --white:#ffffff;
+  --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+  --orangeCard: rgba(252, 166, 31, 0.45);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+body
+{
+    position: relative;
+    background-color: antiquewhite;
+    z-index: 1; /* ensure the main contents appear above the background */
+}
+
+
+.btn-custom
+{
+  border-radius: 0;
+}
